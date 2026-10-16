@@ -2,7 +2,7 @@
 const API_URL = "https://api.football-data.org/v4/matches";
 
 // API tokeningni shu yerga yoz
-const API_TOKEN = "TOKENINGNI_SHU_YERGA_YOZ";
+const API_TOKEN = "cea1d5dfa63a47b79d8ca4d9302cd10a";
 
 async function loadMatches() {
   const container = document.getElementById("matches-list");
