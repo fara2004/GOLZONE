@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GOLZONE | Futbol olami</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#031019;color:white;font-family:Arial,sans-serif}
+header{padding:20px 6%;display:flex;justify-content:space-between;align-items:center;background:#06131d;border-bottom:1px solid #12313e}
+.logo{font-size:27px;font-weight:900;font-style:italic}
+.logo span{color:#00e878}
+nav a{color:white;text-decoration:none;margin:0 8px;font-size:14px}
+.hero{padding:75px 7%;background:linear-gradient(90deg,#031019,#06202b);min-height:330px}
+.hero small{color:#00ef80}
+h1{font-size:clamp(45px,9vw,78px);margin:18px 0}
+h1 span{color:#00ed7b}
+.hero p{color:#c2d2dc;line-height:1.7;max-width:440px}
+.btn{display:inline-block;background:#00dc76;color:#00170c;padding:14px 22px;border-radius:30px;text-decoration:none;font-weight:bold;margin-top:12px}
+section{padding:28px 5%}
+h2{border-left:5px solid #00e878;padding-left:12px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}
+.card{background:#091a27;border:1px solid #193847;border-radius:14px;padding:20px}
+.ball{font-size:35px}
+.card h3{margin-bottom:8px}
+.card p{color:#a9bdc9;line-height:1.5}
+.score{font-size:27px;font-weight:bold;text-align:center;color:#00ed7b}
+footer{text-align:center;padding:30px;background:#06131d;color:#9eb3bf}
+</style>
+</head>
+<body>
+<header>
+<div class="logo">⚽ GOL<span>ZONE</span></div>
+<nav>
+<a href="#home">Bosh sahifa</a>
+<a href="#news">Yangiliklar</a>
+<a href="#games">O‘yinlar</a>
+</nav>
+</header>
+<div class="hero" id="home">
+<small>⚡ FUTBOL — BU HAYOT!</small>
+<h1>GOL <span>ZONE</span></h1>
+<h2>Futbol olamiga xush kelibsiz!</h2>
+<p>Eng so‘nggi futbol yangiliklari, turnirlar, o‘yinlar va sevimli jamoalaringiz haqida ma’lumotlar shu yerda!</p>
+<a class="btn" href="#news">⚽ Yangiliklarni ko‘rish →</a>
+</div>
+<section id="news">
+<h2>So‘nggi yangiliklar</h2>
+<div class="cards">
+<div class="card"><div class="ball">🏆</div><h3>Chempionlar ligasi</h3><p>Yevropaning eng kuchli klublari va katta futbol bahslari.</p></div>
+<div class="card"><div class="ball">🔥</div><h3>Transfer yangiliklari</h3><p>Futbol olamidagi yangi transferlar va muhim xabarlar.</p></div>
+<div class="card"><div class="ball">🌟</div><h3>Yulduz futbolchilar</h3><p>Sevimli futbolchilaringiz va ularning natijalari.</p></div>
+</div>
+</section>
+<section id="games">
+<h2>Futbol maydoni</h2>
+<div class="cards">
+<div class="card"><h3>⚪ Real Madrid</h3><div class="score">VS</div><h3>🔵 Barcelona</h3><p>El Clásico</p></div>
+<div class="card"><h3>🔴 Arsenal</h3><div class="score">VS</div><h3>🔵 Man City</h3><p>Premier League</p></div>
+<div class="card"><h3>🔴 Bayern</h3><div class="score">VS</div><h3>🔵 PSG</h3><p>Chempionlar ligasi</p></div>
+</div>
+</section>
+<footer>
+<div class="logo">⚽ GOL<span>ZONE</span></div>
+<p>Futbol birlashtiradi!</p>
+© 2026 GOLZONE. Barcha huquqlar himoyalangan.
+</footer>
+</body>
+</html>
